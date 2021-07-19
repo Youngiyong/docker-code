@@ -3,5 +3,4 @@ services:
   kibana:
     image: docker.elastic.co/kibana/kibana:6.2.4
     environment:
-        SERVER_HOST: 172.18.0.2
         ELASTICSEARCH_URL: http://13.125.199.59:9200
